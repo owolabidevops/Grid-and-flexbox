@@ -1,0 +1,15 @@
+/* flex box is best for arranging elements in either a single row or a single column */
+
+/*flex box is one dimensional*/
+.row{
+    margin: 20px auto;
+    max-width: 300px;
+    display: flex;
+
+}
+.row > div{
+    border:1px dashed gray;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 12PX;
+}

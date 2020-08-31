@@ -1,0 +1,14 @@
+/* grid is dimentional*/
+/* grid is best arranging elements in multiple rows and columns*/
+
+.row{
+    margin: 20px auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;/*defining the cell using grid grid-template-columns inside the grid container;*/
+}
+.row div{
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+}
